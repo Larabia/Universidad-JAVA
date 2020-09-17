@@ -10,8 +10,13 @@ public class TestManejoPersonas {
 		
 		
 //		Insertar persona a la tabla
-		Persona personaNueva = new Persona("Carlos", "Esparza", "carlos@gamil.com", "2423423423");
-		personaDao.insertar(personaNueva);
+//		Persona personaNueva = new Persona("Carlos", "Esparza", "carlos@gamil.com", "2423423423");
+//		personaDao.insertar(personaNueva);
+		
+//		Modificar un registro de persona existente
+		Persona personaModificar = new Persona(5, "Ludmila", "Esparza", "ludmila@gamil.com", "2423423423");
+		personaDao.actualizar(personaModificar);
+		
 		
 //		Listar personas de la tabla
 		
